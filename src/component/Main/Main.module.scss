@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .error {
+    color: var(--transparent30-white);
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 600px) {
+  .main .error {
+    font-size: 16px;
+  }
+}
